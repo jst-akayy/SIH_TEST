@@ -1,0 +1,278 @@
+/* ===== Welcome / Sign In Page Styles ===== */
+
+.welcome-page {
+  min-height: 100vh;
+  background: #13283b; /* Dark blue */
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.auth-btn {
+  background: rgba(255, 255, 255, 0.15); /* Light white with fade */
+  border: 1px solid rgba(255, 255, 255, 0.5); /* faded border */
+  color: white;
+  border-radius: 8px;
+  padding: 1em 2em; /* bigger padding for size */
+  font-size: 1.25em; /* larger font */
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.auth-btn:hover {
+  background: rgba(255, 255, 255, 0.3); /* slightly stronger on hover */
+}
+
+.center-content {
+  flex: 1;
+  padding: 4rem;
+}
+
+.center-content h1 {
+  font-size: 5em; /* Bigger font for career nest */
+  font-weight: bold;
+  margin-bottom: 0.2em;
+}
+
+.center-content i {
+  font-size: 1.6em; /* Bigger font for tagline */
+  margin-bottom: 1em;
+}
+
+.center-content p {
+  font-size: 1.3em; /* Bigger font for subtext */
+}
+
+.terms {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1.5em 4em;
+  border-top: 1px solid white;
+  font-size: 1.5em;
+}
+
+.terms h3 {
+  font-size: 1.4em; /* larger heading */
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.terms ul {
+  font-size: 1.1em; /* larger list items */
+  margin-left: 2em; /* slight indentation */
+  list-style-type: disc;
+  margin-left: 1.7em;
+}
+
+/* ===== Age Verification Page Styles ===== */
+
+.age-verify-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #13283b;
+  color: white;
+}
+
+.age-verify-page h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.age-verify-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 250px;
+}
+
+.age-verify-page input[type="date"] {
+  padding: 0.5em;
+  font-size: 1.2em;
+  border-radius: 6px;
+  border: none;
+}
+
+.age-verify-page button {
+  background: #3551A1;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  padding: 0.6em;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+.error-text {
+  margin-top: 1rem;
+  color: #ff5555;
+  font-weight: bold;
+}
+
+/* ===== Internship Finder Form Page Styles ===== */
+
+body {
+  font-family: sans-serif;
+  background: #f7f7fc;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.app-center-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: auto;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.12);
+  padding-right: 0;
+  overflow-x: hidden;
+}
+
+.modal-card {
+  background: #fff;
+  border-radius: 24px 0 0 24px;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.22);
+  padding: 1.2em 1.8em;
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #284b63;
+  color: #fff;
+  padding: 0.8em 1em;
+  border-radius: 14px 14px 0 0;
+  font-size: 1.12em;
+}
+
+header select {
+  font-size: 1.18em;
+  padding: 0.4em 1em;
+  border-radius: 8px;
+  background: #E2E7F6;
+  color: #284b63;
+  border: 2px solid #284b63;
+  cursor: pointer;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.form-tile {
+  background: rgba(255,255,255,0.92);
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(44,62,80,0.13);
+  padding: 0.7em 1em;
+  border: 2px solid #3551A1;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+
+.form-tile label {
+  color: #3551A1;
+  font-size: 1.05em;
+  font-weight: bold;
+  margin-bottom: 0.15em;
+  letter-spacing: 0.9px;
+}
+
+.input-form input,
+.input-form select {
+  width: 100%;
+  height: 2.5em;
+  font-size: 1.1em;
+  padding: 0.4em;
+  border-radius: 9px;
+  border: 2px solid #3551A1;
+  background: #f1f6ff;
+  color: #253a7d;
+}
+
+.input-form button[type="submit"] {
+  background: #3551A1;
+  color: #fff;
+  font-size: 1.14em;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  padding: 0.8em 0;
+  box-shadow: 0 2px 8px #ddd;
+  cursor: pointer;
+  width: 100%;
+}
+
+input::placeholder,
+select {
+  color: #253a7d;
+  opacity: 0.85;
+}
+
+.skills-chip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+}
+
+.skill-chip {
+  background: #87ceeb;
+  color: #333;
+  padding: 0.2em 0.8em;
+  border-radius: 14px;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+
+main {
+  max-width: 600px;
+  margin: 2em auto;
+  padding: 1em;
+}
+
+.cards-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.internship-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px #ccc;
+  padding: 1em;
+}
+

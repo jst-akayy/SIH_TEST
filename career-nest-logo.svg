@@ -1,0 +1,8 @@
+<svg width="150" height="60" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg" fill="#284b63" >
+  <!-- Nest structure -->
+  <circle cx="50" cy="50" r="40" stroke="#3551A1" stroke-width="5" fill="none" />
+  <path d="M30 80 C50 40, 70 40, 90 80" fill="none" stroke="#3551A1" stroke-width="5" />
+  <!-- Text - Career Nest -->
+  <text x="130" y="60" font-family="Segoe UI, Arial, sans-serif" font-size="45" font-weight="700" fill="#284b63">Career</text>
+  <text x="130" y="95" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-style="italic" fill="#133362">Nest</text>
+</svg>
